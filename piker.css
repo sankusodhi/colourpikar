@@ -1,0 +1,24 @@
+body {
+    background-image: url('images (4).jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.color-picker-container {
+    text-align: center;
+}
+
+.color-display {
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+    border: 2px solid #ccc;
+    background-color: #ff0000;
+    transition: background-color 0.3s;
+}
